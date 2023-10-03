@@ -1,11 +1,14 @@
 # DCNv2 latest
 
 - Add support for pytorch1.11~pytorch1.13 (may be not backward-compatible). 
-- Test on ubuntu20.04~ubuntu22.04.3, python3.8(conda)~python3.9.13(conda), cuda_11.4~11.7
+- Test0 on Ubuntu20.04~Ubuntu22.04.3
+- Test1 on Python3.8(Conda)~Python3.9.13(Conda)
+- Test2 on CUDA_11.4~CUDA_11.7
 
-It was confirmed that pytorch1.11 worked, but not compatible with previous pytorch version. If you want pytorch1.10 or earlier, please using pytorch1.6 branch, or using last git commit.
+It was confirmed that Pytorch1.11~Pytorch1.13 worked, but not compatible with previous pytorch version. 
+If you want pytorch1.10 or earlier, please using pytorch1.6 branch, or using last git commit.
 
-It's suggested using latest stable pytorch 1.11 to start your project.
+It's suggested using latest stable pytorch 1.11~1.13 to start your project.
 
 
 ## Install
